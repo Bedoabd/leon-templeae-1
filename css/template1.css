@@ -85,7 +85,7 @@ body {
     align-items: center;
 }
 .header .logo {
-    width: 60px;
+    width: 80px;
 }
 .header .links {
     position: relative;;
@@ -101,13 +101,13 @@ body {
 }
 .header .links .icon span {
     background-color: #333;
-    height: 2px;
+    height: 3px;
     margin-bottom: 5px;
     width: 100%;
 }
 .header .links .icon span:nth-child(2) {
     width: 60%;
-    transition: .3s;
+    transition: .4s;
 }
 .header .links ul {
     min-width: 200px;
@@ -129,7 +129,7 @@ body {
     border-color: transparent transparent #f6f6f6 transparent;
     position:absolute;
     right:5px;
-    top: -20px;
+    top: -19px;
 }
 .header .links:hover ul {
     display: block;
@@ -144,8 +144,8 @@ body {
 .header .links li a:hover {
     padding-left: 25px;
 }
-.header .links li:not(:last-child) a {
-    border-bottom: solid #ddd 1px;
+.header .links li a {
+    border-bottom: solid #333 2px;
 }
 /* end header */
 
@@ -169,12 +169,12 @@ body {
 .landing .intro-text h1 {
     margin: 0;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
     color: var(--main-color);
 }
 .landing .intro-text p {
-    font-size: 19px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.;
 
 }
 /* end landing */
@@ -420,6 +420,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    color: var(--socandry-color);
+
 }
 .contact .contact-content .social i {
     margin-left: 10px;
